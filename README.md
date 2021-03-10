@@ -12,6 +12,9 @@
 > ## 주석
 > {/* 내용 */}
 
+> ## 콘솔 warning 무시
+> /* eslint-disable */
+
 > ## 바인딩
 >``` 
 > let posts = 'list_1'; {/*변수 선언*/}
