@@ -1,5 +1,5 @@
 # react_1
-> ## 비주얼스튜디오 단축키
+> ## 비주얼스튜디오 편집 단축키
 ![image](https://user-images.githubusercontent.com/75229868/110595718-b88f4380-81c1-11eb-81b9-de2be4c1345f.png)
 
 > ## 리액트 파일 생성
