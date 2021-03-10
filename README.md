@@ -12,7 +12,7 @@
 > ## 주석
 > {/* 내용 */}
 
-> ## 콘솔 warning 무시
+> ## 콘솔 warning 
 > /* eslint-disable */
 
 > ## 바인딩
