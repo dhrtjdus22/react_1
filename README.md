@@ -46,10 +46,27 @@
 > a[2] = '감사합니다'
 > ```
 
+>### state 값 변경
+>```
+>b(['qwer','asdf','zxcv']);
+>'안녕하세요' -> 'qwer'
+>'안녕히가세요' -> 'asdf'
+>'감사합니다' -> 'zxcv'
+>로 변경
+>```
+>
+>```
+>### state값 복사 후 변경
+>```
+>var newArray = [...a] {/* 기존의 리스트와는 다른 리스트, a 복제 (['안녕하세요','안녕히가세요','감사합니다']) */}
+>newArray[0] = 'qwer' {/* ['qwer','안녕히가세요','감사합니다']*/}
+>b(newArray);
+>```
+
 >```
 >import React, {useState} from 'react'; {/*state임포트*/}
 >
->let [a , b] = useState(['안녕하세요','안녕히가세요','감사합니다'])
+>let [a , b] = useState(['안녕하세요','안녕히가세요','감사합니다']);
 >
 > <div className="list">
 >   <h3> { a[0] } </h3> {/*바인딩 (변수,함수,state 등)*/}
