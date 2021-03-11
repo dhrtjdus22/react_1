@@ -161,7 +161,7 @@
 > <div><div/>
 ></>
 >
->3. 상위 Component에서 만든 state를 쓰려면 props 문법을 
+>3. 상위 Component에서 만든 state를 쓰려면 props 문법을 써야한다
 >
 > Component로 만들면 좋은 코드
 > 1. 반복적으로 쓰이는 html 코드
